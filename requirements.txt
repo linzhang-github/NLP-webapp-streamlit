@@ -1,0 +1,12 @@
+streamlit
+py-readability-metrics
+vaderSentiment
+pandas
+numpy
+Readability
+nltk 
+stopwords  
+Pillow
+matplotlib
+
+
