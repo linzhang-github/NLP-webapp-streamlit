@@ -9,17 +9,5 @@ Check their webiste for documents and all the demos: https://streamlit.io/
 ### 2. Containerizing a Streamlit web app with Docker 
 Docker is powerful tool for maintaining reproducible work and portability of the compute environment, enables you to separate your applications from your infrastructure so you can deliver software quickly. Docker documents: https://docs.docker.com/ 
 
-I had my Streamlit web app prepared in a directory that looks like this:
-
-app.py                  # streamlit code
-aws-logo.jpg            # pictures used 
-docker-logo.jpg         # pictures used 
-NLP-image.jpg           # pictures used 
-streamlit-logo.jpg      # pictures used 
-Dockerfile              # Open the dockerfile for details 
-requirements.txt        # packages needed in the code 
-sentiment               # NLP package 
-tokenizers              # NLP package 
-
 ### 3. Push the Streamlit web app on the cloud   
 I pushed this streamlit app docker image on an EC2 instance on AWS. I set up docker on a clean EC2 instance, you can find a EC2 with a docker installed already. 
