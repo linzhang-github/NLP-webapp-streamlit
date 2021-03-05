@@ -1,0 +1,7 @@
+#build a docker image after docker is installed in your AWS EC2 instance, and all the files in the folder are transferred to the EC2 instance 
+docker build --no-cache --tag image_name:tag_name . 
+
+#Create a docker container within that docker image 
+docker run --volume /local/instance/working/directory:/app -p 8501:8501 -d image_name:tag_name app.py  
+
+
