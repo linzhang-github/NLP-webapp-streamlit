@@ -1,7 +1,7 @@
 # NLP-webapp-streamlit 
 # Deploy a NLP model into a web app with streamlit, docker, and AWS.  
 
-As a data scientist, I work on different data science/data analytics projects on daiy basis. Recently I designed and implemented a NLP model to reinvent the digital subcription strategy for a digital journal. In order to enable our end-users to use our NLP model(They don't need to be a programer), I deployed this NLP model into a web application and delivered this prototype with Streamlit, Docker, and AWS.  
+As a data scientist, I work on different data science/data analytics projects on daily basis. Recently I designed and implemented a NLP model to reinvent the digital subcription strategy for a digital journal. In order to enable our end-users to use our NLP model(They don't need to be a programer), I deployed this NLP model into a web application and delivered this prototype with Streamlit, Docker, and AWS.  
 
 ### 1. Deploy the data app with Streamlit 
 Stream is an open-source app framework for data scientist and machine learning engineers to deploy their data app in a short period of time.  
